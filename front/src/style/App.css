@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  background: white;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.main-header {
+  width: 100dvw;
+  height: 40px;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 20px 0 20px 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 100dvw;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-events {
+  width: 50dvw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+.event {
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+}
+
+.event h3 {
+  margin: 0;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+}
+
+.edit-button {
+  background: #26d94d;
+  border: 1px solid #fefefe;
+  border-radius: 10px;
+  padding: 7.5px 10px 7.5px 10px;
+  cursor: pointer;
+  width: 75px;
+}
+
+.delete-button {
+  background: #ec3431;
+  border: 1px solid #fefefe;
+  border-radius: 10px;
+  padding: 7.5px 10px 7.5px 10px;
+  cursor: pointer;
+  width: 75px;
+}
